@@ -21,6 +21,9 @@ Type "Download Rufus" in the google search button or click [This Link](https://r
 After, download Rufus to your computer as shown in the image below.
 ![003_Rufus_Download.jpg](./figures/003_Rufus_Download.jpg)
 
+Run Rufus and write your Ubuntu 20.04 iso file to your flash memory as in the image below. (Make sure your flash memory is at least 15GB.)
+![004_Rufus_iso_image.jpg](./figures/004_Rufus_iso_image.jpg)
+![005_Rufus_iso_image.jpg](./figures/005_Rufus_iso_image.jpg)
 
 After using Rufus to make an ISO image into a USB drive, you can restart your computer and press your boot key.
 In the boot screen of your computer, you will see a similar page as given below.
