@@ -25,6 +25,7 @@ Run Rufus and write your Ubuntu 20.04 iso file to your flash memory as in the im
 ![004_Rufus_iso_image.jpg](./figures/004_Rufus_iso_image.jpg)
 ![005_Rufus_iso_image.jpg](./figures/005_Rufus_iso_image.jpg)
 
+### Installation
 After using Rufus to make an ISO image into a USB drive, you can restart your computer and press your boot key.
 In the boot screen of your computer, you will see a similar page as given below.  (If you don't know which key (F12, F11 etc.) is used on your keyboard for "boot manager", search it on google with your computer model.)
 ![01_select_usb_in_boot_menu.JPG](./figures/01_select_usb_in_boot_menu.JPG)
