@@ -70,3 +70,9 @@ After this step, wait for the computer to start.
 When the computer starts, you will see a screen like the image below. 
 ![12_choose_ubuntu_or_windows.JPG](./figures/12_choose_ubuntu_or_windows.JPG)
 Here, select the "Ubuntu" partition to boot your computer with Ubuntu, or the partition starting with "Windows Boot Manager" to boot your computer with Windows. 
+
+### Updating and Installing Required Applications
+
+After you complete the installation cleanly, watch the video below. 
+![01_ubuntu_installation-2022-09-28_12.27.29.mp4](./figures/01_ubuntu_installation-2022-09-28_12.27.29.mp4)
+This video includes some other system updates and installation of useful applications such as web browser in the first stage.
