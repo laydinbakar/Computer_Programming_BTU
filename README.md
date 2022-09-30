@@ -74,5 +74,5 @@ Here, select the "Ubuntu" partition to boot your computer with Ubuntu, or the pa
 ### Updating and Installing Required Applications
 
 After you complete the installation cleanly, watch the video below. 
-![01_ubuntu_installation-2022-09-28_12.27.29.mp4](./figures/01_ubuntu_installation-2022-09-28_12.27.29.mp4)
+![01_ubuntu_installation-2022-09-28_12.27.29.mp4](./videos/01_ubuntu_installation-2022-09-28_12.27.29.mp4)
 This video includes some other system updates and installation of useful applications such as web browser in the first stage.
