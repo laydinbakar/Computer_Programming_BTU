@@ -22,6 +22,7 @@ After, download Rufus to your computer as shown in the image below.
 ![003_Rufus_Download.jpg](./figures/003_Rufus_Download.jpg)
 
 Run Rufus and write your Ubuntu 20.04 iso file to your flash memory as in the image below. (Make sure your flash memory is at least 15GB.)
+
 ![004_Rufus_iso_image.jpg](./figures/004_Rufus_iso_image.jpg)
 ![005_Rufus_iso_image.jpg](./figures/005_Rufus_iso_image.jpg)
 
@@ -69,6 +70,7 @@ After this step, wait for the computer to start.
 
 When the computer starts, you will see a screen like the image below. 
 ![12_choose_ubuntu_or_windows.JPG](./figures/12_choose_ubuntu_or_windows.JPG)
+
 Here, select the "Ubuntu" partition to boot your computer with Ubuntu, or the partition starting with "Windows Boot Manager" to boot your computer with Windows. 
 
 ### Updating and Installing Required Applications
