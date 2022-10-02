@@ -31,15 +31,16 @@ After using Rufus to make an ISO image into a USB drive, you can restart your co
 In the boot screen of your computer, you will see a similar page as given below.  (If you don't know which key (F12, F11 etc.) is used on your keyboard for "boot manager", search it on google with your computer model.)
 ![01_select_usb_in_boot_menu.JPG](./figures/01_select_usb_in_boot_menu.JPG)
 
-From the boot menu that appears, select the USB driver where you writed the iso file by the rufus.
-After selecting the USB drive, you will see a screen similar to the one below. 
+From the boot menu that appears, select the USB driver where you writed the iso file by the rufus. After selecting the USB drive, you will see a screen similar to the one below. 
 ![02_select_install_ubuntu.JPG](./figures/02_select_install_ubuntu.JPG)
 Continue here by selecting the English language option and clicking Install Ubuntu button.
 
 Then choose your keyboard layout as in the image below. (Choose English if you have an English keyboard layout.)
 ![03_choose_your_keyboard_layout.JPG](./figures/03_choose_your_keyboard_layout.JPG)
 
-Then you will see a screen like the below. Continue to the installation by clicking the "Normal installation" and Download updates while installing ubuntu" options as in the image.
+Then you will see a screen like the below. 
+Continue to the installation by clicking the "Normal installation" and Download updates while installing ubuntu" options as in the image.
+
 ![04_click_to_continue.JPG](./figures/04_click_to_continue.JPG)
 
 On the next step, as shown the below, click "Install Ubuntu alongside Windows Boot Manager" as the installation type and continue.
