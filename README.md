@@ -9,7 +9,7 @@ However, we will use the Ubuntu 20.04 LTS in our courses.
 In the version we will use, the first two numbers are important. So I mean Ubuntu 20.04. Please note that there are numbers 20 and 04 here. The number after these numbers is not important.
 To download Ubuntu 20.04, click on the button that says "see our alternative downloads" as given below.
 
-![Ubuntu_download_for_alternative_version.jpg](./figures/Ubuntu_download_for_alternative_version.jpg)
+![001_Ubuntu_download_for_alternative_version.jpg](./figures/001_Ubuntu_download_for_alternative_version.jpg)
 
 Download the Ubuntu 20.04 iso file by clicking the button as shown in the figure below. (Download via BitTorrent as the file size is too large.) 
 
