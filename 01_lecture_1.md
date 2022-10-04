@@ -41,7 +41,7 @@ ls -la
 ### 3. `cd`
 `cd` stands for `Change Directory` in Linux.
 We can go to a directory using the `cd` command as shown below.
-```
+```zsh
 cd Desktop
 ```
 and check where we are working now by
