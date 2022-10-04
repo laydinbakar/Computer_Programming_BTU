@@ -84,22 +84,93 @@ cd ~/Desktop
 ```
 to go to the `Desktop` directory from anywhere we are in.
 
-* Examples with `cd`
-Use the commands below and see what happens.
+### 4. `mkdir`
+`mkdir` is the acronym of `Make Directory`.
+We can make directories using this command.
 ```
-cd ~/..
+mkdir ComputerProgramming
+cd ComputerProgramming
 pwd
-cd la
+/home/la/ComputerProgramming
+```
+If we use space between two word when we make directories using `mkdir` it makes two different folders.
+```
+mkdir Lecture Notes
 ls
-pwd
-cd ../la/Desktop
-pwd
-cd ~/Documents
-pwd
-cd ~
-pwd
+Lectore Notes
+```
+So, if we want to make a directory so called "Lecture Notes" we should type
+```
+mkdir Lecture\ Notes
+```
+but this way is usually not preferred by Linux users. Instead we use `Lecture_Notes` or `LectureNotes`. For the differences you can read [here](https://wiki.c2.com/?UnderscoreVersusCapitalAndLowerCaseVariableNaming).
+```
+mkdir LectureNotes
 ls
-cd ../../home/~
-pwd
+Lecture Notes LectureNotes
+```
+
+If we need to make multiple directories in such as `LectureNotes/Lecture1` we can use
+```
+mkdir LectureNotes/Lecture1
+```
+However, if any of the non-existing directories included in our command, we get an error.
+```
+mkdir LectureNotes/Lecture2/Slides
+mkdir: cannot create directory ‘LectureNotes/Lecture2/Slides’: No such file or directory
+```
+To get rid of this error we should use `-p` option as follows.
+```
+mkdir -p LectureNotes/Lecture2/Slides
+ls LectureNotes/Lecture2
+Slides
+```
+This will both make the `Lecture2` directory and `Slides` in it.
+
+### 5. `touch`
+This is a command creating files in Linux.
+```
+touch LectureNotes/Lecture1/file.txt
+touch LectureNotes/Lecture2/Slides/README.md
+mkdir LectureNotes/Lecture1/Python
+touch LectureNotes/Lecture1/Python/solve.py
+```
+
+### 6. `rm`
+`rm` removes files and folders in Linux.
+```
+ls LectureNotes/Lecture1
+file.txt
+rm LectureNotes/Lecture1/file.txt
+```
+removes the `file.txt`. However, we get an error when we try to remove a folder by `rm`
+```
+rm LectureNotes/Lecture1/Python
+rm: cannot remove 'LectureNotes/Lecture2/Slides': Is a directory
+```
+To remove a directory we need to use `-r` option in this command.
+```
+rm -r LectureNotes/Lecture1/Python
+ls LectureNotes/Lecture1
+<empty>
+```
+`-r` option is usually used with `-f` so as not to get error for nonexisting files and arguments.
+```
+rm -r LectureNotes/Lecture1
+rm: cannot remove 'LectureNotes/Lecture1': No such file or directory
+rm -rf LectureNotes
+```
+
+### 7. `cp`
+`cp` is acronym of `Copy` in Linux Terminal. A `-r` option is used with `cp` for similar reasons.
+```
+cp -r LectureNotes LectureNotesBck
+cp LectureNotes/Lecture2/Slides/README.md .
+```
+
+
+
+### 5. `ln`
+`ln` stands for `Link`. We can use this to link a file or folder to somewhere else.
 ```
 
