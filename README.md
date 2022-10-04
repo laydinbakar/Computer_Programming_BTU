@@ -88,8 +88,11 @@ You can change this order, to make Windows your default OS. For this, you can fi
 
 ### Updating and Installing Required Applications
 
-After you complete the installation, watch the video below. 
-This video includes some other system updates and installation of useful applications such as web browser in the first stage.
+After you complete the installation, watch three videos below. 
+_Click on the pictures_ to go to YouTube to watch the videos.
+
+The first video includes some other system updates and installation of useful applications such as web browser in the first stage.
+
 
 [![Watch the video on YouTube](./figures/01_ubuntu_installation_video.png)](https://youtu.be/yZd9m5VCscI)
 
