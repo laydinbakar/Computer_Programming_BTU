@@ -98,5 +98,8 @@ This video contains the programs we will use in the lessons and some terminal se
 The folders and files in the video will be shared with you via a Google Drive shared folder.
 
 [![Watch the video on YouTube](./figures/02_terminal_setting_video.png)](https://youtu.be/nXNV52dRFgE)
+
+And the last video shows some more settings.
+
 [![Watch the video on YouTube](./figures/03_terminal_setting_video.png)](https://youtu.be/Ho4x4knxlUY)
 
