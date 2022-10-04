@@ -45,7 +45,7 @@ We can go to a directory using the `cd` command as shown below.
 cd Desktop
 ```
 and check where we are working now by
-```
+```zsh
 pwd
 ```
 shows that
