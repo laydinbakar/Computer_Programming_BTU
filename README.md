@@ -2,7 +2,7 @@
 ## Installation of Ubuntu
 ### Download
 In this course, we use the Ubuntu version of 20.04.5 LTS. 
-You can download the version 20.04 LTS (Focal Fossa) for free from [this link](https://ubuntu.com/download/alternative-downloads), under `Past releases and other flavours` section.
+You can download the version 20.04 LTS (Focal Fossa) for free from [this link](https://ubuntu.com/download/alternative-downloads), under `Past releases and other flavours` section seed on the right bottom corner.
 
 ![001_alternative_version_button.jpg](./figures/001_alternative_version_button.jpg)
 
@@ -10,7 +10,7 @@ An ISO file will be downloaded.
 
 ### Download Rufus
 We need to write the Ubuntu ISO file to a flash drive using Rufus.
-Use [this Link](https://rufus.ie/en/) to download Rufus.
+Use [this link](https://rufus.ie/en/) to download Rufus.
 
 ![003_Rufus_Download.jpg](./figures/003_Rufus_Download.jpg)
 
@@ -21,7 +21,7 @@ Run Rufus and write your Ubuntu 20.04 iso file to your flash memory as in the im
 
 ### Installation
 After using Rufus to make an ISO image into a USB drive, you can restart your computer and press your boot key.
-If you don't know which key (F2, F10, F12, F11 etc.) is used on your keyboard for boot manager, search it on google with your computer model.
+If you don't know which key (F2, F10, F12, F11 etc.) is used on your keyboard for boot manager, search it on Google with your computer model.
 In the boot screen of your computer, you need to change boot option to your USB.
 Here you should search on the internet how to change the boot option in your computer model because it changes by the model.
 You can find a boot manu screenshot taken on a Lenovo computer.
@@ -36,7 +36,7 @@ Click `Install Ubuntu` button. Then choose your keyboard layout as in the image 
 
 ![03_choose_your_keyboard_layout.JPG](./figures/03_choose_your_keyboard_layout.JPG)
 
-Continue to the installation by clicking the `Normal installation` and `Download updates while installing ubuntu` options as in the figure below.
+Continue to the installation by clicking the `Normal installation` and `Download updates while installing Ubuntu` options as in the figure below.
 
 ![04_click_to_continue.JPG](./figures/04_click_to_continue.JPG)
 
@@ -61,7 +61,7 @@ Select your location here.
 ![07_choose_turkiye.JPG](./figures/07_choose_turkiye.JPG)
 
 You will see a screen with information such as username, password and computer name as below.
-We recommend you to choose a short computer and user name (e.g. la here) and easy-to-type password (e.g. fjfjfjfj) here.
+We recommend you to choose a short computer and user names (e.g. la here) and easy-to-type password (e.g. fjfjfjfj) here.
 
 ![08_fill_the_form_weakpassword.JPG](./figures/08_fill_the_form_weakpassword.JPG)
 
@@ -69,34 +69,34 @@ Then wait for some time the installation to complete as in the picture below.
 
 ![09_wait_for_some_time.JPG](./figures/09_wait_for_some_time.JPG)
 
-When the installation is complete, you will see a screen like the picture below. 
-Please do not remove the USB drive during this time and click the `Restart Now` button. 
+When the installation is complete, click the `Restart Now` button. 
 
 ![10_restart.JPG](./figures/10_restart.JPG)
 
-After restart, you will then see a screen like the image below.
-Remove the USB driver and then press the enter. 
+After restart, you will then see a screen like in the image below.
+Remove the USB driver and then press the `Enter`. 
 
 ![11_remove_usb_and_enter.JPG](./figures/11_remove_usb_and_enter.JPG)
 
-When the computer starts, you will see a screen like the image below. 
+When the computer starts, you will see a screen like in the image below. 
 
 ![12_choose_ubuntu_or_windows.JPG](./figures/12_choose_ubuntu_or_windows.JPG)
 
-Here, you can select the `Ubuntu` to open Ubuntu, or "Windows Boot Manager" to open Windows. 
+Here, you can select the `Ubuntu` to open Ubuntu, or `Windows Boot Manager` to open Windows. 
 If you do not press `Enter` here for 10 seconds Ubuntu starts as default.
-You can change this order, to make Windows your default, you can find information [here](https://itsfoss.com/grub-customizer-ubuntu/).
+You can change this order, to make Windows your default OS. For this, you can find information [here](https://itsfoss.com/grub-customizer-ubuntu/).
 
 ### Updating and Installing Required Applications
 
 After you complete the installation, watch the video below. 
 This video includes some other system updates and installation of useful applications such as web browser in the first stage.
 
-![01_ubuntu_installation-2022-09-28_12.27.29.mp4](./videos/01_ubuntu_installation-2022-09-28_12.27.29.mp4)
+[![Watch the video on YouTube](./figures/01_ubuntu_installation_video.png)](https://youtu.be/yZd9m5VCscI)
 
 Then watch the second video below.
 This video contains the programs we will use in the lessons and some terminal settings. 
 The folders and files in the video will be shared with you via a Google Drive shared folder.
 
-![02_terminal_setting-2022-09-28_12.36.40.mp4](./videos/02_terminal_setting-2022-09-28_12.36.40.mp4)
+[![Watch the video on YouTube](./figures/02_terminal_setting_video.png)](https://youtu.be/nXNV52dRFgE)
+[![Watch the video on YouTube](./figures/03_terminal_setting_video.png)](https://youtu.be/Ho4x4knxlUY)
 
