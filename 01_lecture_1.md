@@ -24,7 +24,7 @@ ls
 ```
 Shows the files and folders located in your `/home/la` directory. 
 You will see
-```
+```zsh
 Desktop/ install2.sh Pictures/ Templates/ Documents/ install.sh Public/ terminal_setting_link1/ Downloads/ Music/ snap/ Videos/
 ```
 if you followed [this repository](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/00_ubuntu_installation.md) to install Ubuntu on your computer or if you use one of our lab computers.
