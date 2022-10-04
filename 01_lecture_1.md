@@ -8,7 +8,7 @@ Open a Terminal Window by
 `pwd` stands for `Pring Work Directory` in Linux. 
 Terminal opens at the `home` directory by default in Ubuntu.
 If you type `pwd` and press `Enter` you will see your `home` directory.
-```bash
+```zsh
 pwd
 /home/la
 ```
@@ -16,7 +16,7 @@ in my case.
 
 ### 2. `ls`
 We can list the files and folders in a directory using this command.
-```
+```zsh
 cd
 pwd
 /home/la
