@@ -4,7 +4,7 @@ Open a Terminal Window by
 * pressing `Windows Key` and typing `Terminal`,
 * pressing `ctrl+alt+t`,
 * or clicking the Terminal Icon on the left dock.
-### `pwd`
+### 1. `pwd`
 `pwd` stands for `Pring Work Directory` on Linux. 
 Terminal opens at the `home` directory by default in Ubuntu.
 If you type `pwd` and press `Enter` you will see your `home` directory.
