@@ -30,11 +30,11 @@ Desktop/ install2.sh Pictures/ Templates/ Documents/ install.sh Public/ terminal
 if you followed [this repository](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/00_ubuntu_installation.md) to install Ubuntu on your computer or if you use one of our lab computers.
 
 `ls` also has some options with it. One of them is `ls -l` which prints the details of the files such as the size of a file in KB and the date that the file has been created.
-```
+```zsh
 ls -l
 ```
 The other is `ls -la` and used for printing also the hidden files starting with `.` in your working directory.
-```
+```zsh
 ls -la
 ```
 
