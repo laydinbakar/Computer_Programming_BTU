@@ -11,7 +11,9 @@ Open a Terminal Window by
 `pwd` stands for `Print Work Directory` in Linux. 
 Terminal opens at the `home` directory by default in Ubuntu.
 If you type `pwd` and press `Enter` you will see your `home` directory.
-![pwd](./figurs/01.01.pwd.png)
+
+![pwd](./figures/01.01.pwd.png)
+
 in my case.
 
 ### 2. `ls`
