@@ -74,7 +74,7 @@ but this way is usually not preferred by Linux users. Instead we use `Lecture_No
 
 ![pwd](./figures/01.13.mkdir4.png)
 
-If we need to make multiple directories in such as `LectureNotes/Lecture1` we can use
+If we need to make multiple directories, such as `LectureNotes/Lecture1` we can use `mkdir`.
 However, if any of the non-existing directories included in our command, we get an error.
 To get rid of this error we should use `-p` option as follows.
 
@@ -85,24 +85,18 @@ This will both make the `LectureNotes` directory and `Lecture1` in it.
 ### 5. `touch`
 This is a command creating files in Linux.
 
+First go to the `LectureNotes` directory and follow the instructions.
+
 ![pwd](./figures/01.15.touch.png)
 
 ### 6. `rm`
-`rm` removes files and folders in Linux.
+`rm` removes files in Linux. But we cannor remove folders using `rm` alone.
 
 ![pwd](./figures/01.16.rm.png)
 
-removes the `file.txt`. However, we get an error when we try to remove a folder by `rm`
+We need to use `-r` option to remove folders or `-rf` option so as not to get error for non-existing files and arguments.
 
-![pwd](./figures/01.17.rm-r1.png)
-
-To remove a directory we need to use `-r` option in this command.
-
-![pwd](./figures/01.18.rm-r2.png)
-
-`-r` option is usually used with `-f` so as not to get error for nonexisting files and arguments.
-
-![pwd](./figures/01.19.rm-rf.png)
+![pwd](./figures/01.17.rm-rf.png)
 
 ### 7. `cp`
 `cp` is acronym of `Copy` in Linux Terminal. A `-r` option is used with `cp` for similar reasons.
@@ -149,7 +143,7 @@ Now use `cat` to write what is included in `file.txt` into `file2.txt` and check
 
 ![pwd](./figures/01.28.cat3.png)
 
-### `echo`
+### 12. `echo`
 We use `echo` to print anything on the command line.
 
 ![pwd](./figures/01.29.echo.png)
