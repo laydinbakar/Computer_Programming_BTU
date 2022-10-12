@@ -18,116 +18,57 @@ in my case.
 
 ### 2. `ls`
 We can list the files and folders in a directory using this command.
-```zsh
-cd
-pwd
-/home/la
-ls
-```
-Shows the files and folders located in your `/home/la` directory. 
-You will see
-```zsh
-Desktop/ install2.sh Pictures/ Templates/ Documents/ install.sh Public/ terminal_setting_link1/ Downloads/ Music/ snap/ Videos/
-```
+
+![pwd](./figures/01.02.ls.png)
+
+Shows the files and folders located in your `/home/la` directory.
+You should see the same folders in your `home` directory
 if you followed [this repository](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/00_ubuntu_installation.md) to install Ubuntu on your computer or if you use one of our lab computers.
 
 `ls` also has some options with it. One of them is `ls -l` which prints the details of the files such as the size of a file in KB and the date that the file has been created.
-```zsh
-ls -l
-```
+![pwd](./figures/01.03.ls-l.png)
+
 The other is `ls -la` and used for printing also the hidden files starting with `.` in your working directory.
-```zsh
-ls -la
-```
+![pwd](./figures/01.04.ls-la.png)
 
 ### 3. `cd`
 `cd` stands for `Change Directory` in Linux.
 We can go to a directory using the `cd` command as shown below.
-```zsh
-cd Desktop
-```
-and check where we are working now by
-```zsh
-pwd
-```
-shows that
-```
-/home/la/Desktop
-```
+![pwd](./figures/01.05.cd.png)
+
 This usage of `cd` lets we go to a directory relatively your working directory.
 It can also be used as absolute path.
-```
-cd /home/la/Documents
-pwd
-/home/la/Documents
-```
+![pwd](./figures/01.06.cd2.png)
 
 We can use `cd` alone in commandline to go to `home` directory.
-```
-cd
-pwd
-/home/la
-```
+![pwd](./figures/01.07.cd3.png)
 
 `..` "two dots without space" is used to go an upper directory. Here we are in `/home/la`. Typing `..` we can go to `/home` directory.
-```
-cd ..
-pwd
-/home
-```
+![pwd](./figures/01.08.cd4.png)
 
-`~` which is tilde is equal to `/home/la` in Linux Terminal. Insead of using 
-```
-cd /home/la/Desktop
-```
-we can use
-```
-cd ~/Desktop
-```
-to go to the `Desktop` directory from anywhere we are in.
+`~` which is tilde is equal to `/home/la` in Linux Terminal. 
+![pwd](./figures/01.09.cd5.png)
 
 ### 4. `mkdir`
 `mkdir` is the acronym of `Make Directory`.
 We can make directories using this command.
-```
-mkdir ComputerProgramming
-cd ComputerProgramming
-pwd
-/home/la/ComputerProgramming
-```
+![pwd](./figures/01.10.mkdir.png)
+
 If we use space between two word when we make directories using `mkdir` it makes two different folders.
-```
-mkdir Lecture Notes
-ls
-Lectore Notes
-```
+![pwd](./figures/01.11.mkdir2.png)
+
 So, if we want to make a directory so called "Lecture Notes" we should type
-```
-mkdir Lecture\ Notes
-```
+![pwd](./figures/01.13.mkdir4.png)
+
 but this way is usually not preferred by Linux users. Instead we use `Lecture_Notes` or `LectureNotes`. For the differences you can read [here](https://wiki.c2.com/?UnderscoreVersusCapitalAndLowerCaseVariableNaming).
-```
-mkdir LectureNotes
-ls
-Lecture Notes LectureNotes
-```
+![pwd](./figures/01.13.mkdir4.png)
 
 If we need to make multiple directories in such as `LectureNotes/Lecture1` we can use
-```
-mkdir LectureNotes/Lecture1
-```
 However, if any of the non-existing directories included in our command, we get an error.
-```
-mkdir LectureNotes/Lecture2/Slides
-mkdir: cannot create directory ‘LectureNotes/Lecture2/Slides’: No such file or directory
-```
 To get rid of this error we should use `-p` option as follows.
-```
-mkdir -p LectureNotes/Lecture2/Slides
-ls LectureNotes/Lecture2
-Slides
-```
-This will both make the `Lecture2` directory and `Slides` in it.
+![pwd](./figures/01.12.mkdir3.png)
+
+This will both make the `LectureNotes` directory and `Lecture1` in it.
 
 ### 5. `touch`
 This is a command creating files in Linux.
