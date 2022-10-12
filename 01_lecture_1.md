@@ -36,10 +36,12 @@ The other is `ls -la` and used for printing also the hidden files starting with 
 ### 3. `cd`
 `cd` stands for `Change Directory` in Linux.
 We can go to a directory using the `cd` command as shown below.
+
 ![pwd](./figures/01.05.cd.png)
 
 This usage of `cd` lets we go to a directory relatively your working directory.
 It can also be used as absolute path.
+
 ![pwd](./figures/01.06.cd2.png)
 
 We can use `cd` alone in commandline to go to `home` directory.
@@ -51,7 +53,7 @@ We can use `cd` alone in commandline to go to `home` directory.
 ![pwd](./figures/01.08.cd4.png)
 
 `~` which is tilde is equal to `/home/la` in Linux Terminal. 
-j
+
 ![pwd](./figures/01.09.cd5.png)
 
 ### 4. `mkdir`
@@ -104,14 +106,64 @@ To remove a directory we need to use `-r` option in this command.
 
 ### 7. `cp`
 `cp` is acronym of `Copy` in Linux Terminal. A `-r` option is used with `cp` for similar reasons.
-```
-cp -r LectureNotes LectureNotesBck
-cp LectureNotes/Lecture2/Slides/README.md .
-```
+
+![pwd](./figures/01.20.cp-r.png)
+
+### 8. `ln -s`
+`ln -s` stands for `Link`. We can use this to link a file or folder to somewhere else.
+
+![pwd](./figures/01.21.ln-s.png)
+
+We can also link a folder.
+
+![pwd](./figures/01.22.ln-s2.png)
+
+### 9. `mv`
+`mv` stands for `move`. We can move files and folders using `mv`.
+
+![pwd](./figures/01.23.mv.png)
+  
+### 10. `gedit`
+`gedit` is the command to open the Ubuntu's default text editor Gedit. We can open some files using it change and save.
+
+![pwd](./figures/01.24.gedit.png)
+
+The file editor is opened immediately and you can write on it.
+
+![pwd](./figures/01.25.gedit2.png)
+
+Then to close the text editor and back to the terminal window you can use `ctrl+s` to save, `ctrl+w` to close the document editing and once more `ctrl+w` to close Gedit. As an other way to close it, press `ctrl+s` to save and go back to the terminal and press `ctrl+c`.
+
+`Please note that` we will not use Gedit to edit our files. We will use Vim which will be taught in the following lectures. This information is given here to write some files before learning Vim.
+
+### 11. `cat`
+You can write `gedit file.txt` to open the file again or you can use `cat` command to see what is in the file without leaving the terminal window.
+
+![pwd](./figures/01.26.cat.png)
+
+We can also use `cat` to combine files. To do that first open another file as `file2.txt` using Gedit and write something in it. Save and exit.
+
+![pwd](./figures/01.27.cat2.png)
+
+Now use `cat` to write what is included in `file.txt` into `file2.txt` and check it.
+
+![pwd](./figures/01.28.cat3.png)
+
+### `echo`
+We use `echo` to print anything on the command line.
+
+![pwd](./figures/01.29.echo.png)
+
+We can also use `echo` to write something into a file. Try the following.
+
+![pwd](./figures/01.30.echo2.png)
+
+If the file does not exist, we should use single `>` instead of `>>`.
+
+![pwd](./figures/01.31.echo3.png)
 
 
 
-### 5. `ln`
-`ln` stands for `Link`. We can use this to link a file or folder to somewhere else.
-```
+
+
 
