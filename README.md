@@ -1,6 +1,5 @@
 # Computer Programming
 * [Ubuntu installation](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/00_ubuntu_installation.md)
-* [Lecture 1](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/01_lecture_1.md)
 * [Lecture 2](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/02_lecture_2.md)
 * [Lecture 3](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/03_lecture_3.md)
 * [Lecture 4](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/04_lecture_4.md)

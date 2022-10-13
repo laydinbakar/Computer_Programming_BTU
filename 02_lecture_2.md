@@ -1,4 +1,6 @@
 # Lecture 2 (14.10.2022)
+You can find the lecture video [here](https://youtu.be/uCHMJFjQKDY).
+
 ### Basic Terminal Commands on Ubuntu
 Open a Terminal Window by
 * pressing `Windows Key` and typing `Terminal`,
