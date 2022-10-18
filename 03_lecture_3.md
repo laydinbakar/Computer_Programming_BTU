@@ -269,6 +269,8 @@ Below figure shows how to do it.
 1. Change the `Select a role` to `Owner`.
 1. Click `Invite` to finish.
 
+![](./figures/03.28.gitlab_member.png)
+
 Then I will get an email asking me to accept your invitation.
 
 You will see my name in the list of members when I accept your invitation.
