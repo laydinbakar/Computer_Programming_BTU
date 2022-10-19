@@ -1,4 +1,7 @@
 # Lecture 3 (21.10.2022)
+You can watch the video lectures for
+* [Vim](https://youtu.be/WTTno8TSvIw) and
+* [Screen and GitLab](https://youtu.be/QkrVu39wjus).
 
 ## Vim
 Vim is a text editor can be used on the terminal window.
