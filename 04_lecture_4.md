@@ -1,6 +1,8 @@
 # Lecture 4 (28.10.2022)
 You can watch the video lectures for
-* [Python]().
+* [1-Python](https://youtu.be/Jqpt3janYkg).
+* [2-Python](https://youtu.be/pYia1L1D_n0).
+* [3-GitLab](https://youtu.be/StgF3vVA6tc).
 
 ## Introduction to Python Programming Language
 ### Basic arithmatic operations
