@@ -5,7 +5,7 @@ You can watch the video lectures for
 * [3-GitLab](https://youtu.be/StgF3vVA6tc).
 
 ## Introduction to Python Programming Language
-### Basic arithmatic operations
+### Basic arithmetic operations
 |Sign |Name |Ex |Results |
 |------|------|------|------|
 |`+`| Addition| 7+3 |10|
