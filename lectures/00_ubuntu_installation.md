@@ -93,16 +93,16 @@ _Click on the pictures_ to go to YouTube to watch the videos.
 The first video includes some other system updates and installation of useful applications such as web browser in the first stage.
 
 
-[![Watch the video on YouTube](./figures/01_ubuntu_installation_video.png)](https://youtu.be/yZd9m5VCscI)
+* Click [here](https://youtu.be/yZd9m5VCscI) to watch the video.
 
 Then watch the second video below.
 This video contains the programs we will use in the lessons and some terminal settings. 
 The folders and files in the video will be shared with you via a Google Drive shared folder.
 
-[![Watch the video on YouTube](./figures/02_terminal_setting_video.png)](https://youtu.be/nXNV52dRFgE)
+* Click [here](https://youtu.be/nXNV52dRFgE) to watch the video.
 
 And the last video shows some more settings.
 
-[![Watch the video on YouTube](./figures/03_terminal_setting_video.png)](https://youtu.be/Ho4x4knxlUY)
+* Click [here](https://youtu.be/Ho4x4knxlUY) to watch the video.
 
 
