@@ -48,6 +48,8 @@ Click
 
 as the installation type and continue.
 
+If you do not see this option, you need to partition your disk using your Windows OS and select `Something else` option below. Search this on the internet. 
+
 ![05_install_ubuntu_alongside_windows.JPG](./figures/05_install_ubuntu_alongside_windows.JPG)
 
 In the next screen, allocate at least 30 GB of space (a larger space pereferable) which we will need in the lessons for Ubuntu. 
