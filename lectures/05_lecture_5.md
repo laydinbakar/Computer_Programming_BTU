@@ -68,7 +68,7 @@ $\mathbf{u}$ is calculated as follows:
  - (\omega_1 r_3 - \omega_3 r_1) \mathbf{e}_2 
  + (\omega_1 r_2 - \omega_2 r_1) \mathbf{e}_3
 \\
-=& \right(
+=& \left(
  (\omega_2 r_3 - \omega_3 r_2), 
 -(\omega_1 r_3 - \omega_3 r_1), 
  (\omega_1 r_2 - \omega_2 r_1)
