@@ -101,9 +101,47 @@ Math module is for use of some mathematical functions in Python.
 * `math.isclose(value1, value2, rel_tol=0.1)` prints True or False if "value1" is closer to "value2" than `rel_tol`,
 * `math.log(value1, value2)` logaritmic function as $\mathrm{log}\_value1 value2$,
 * `math.degrees(radian)` converts "radian" into degrees,
-* `math.radian(degree)` converts "degree" into radians,
+* `math.radians(degree)` converts "degree" into radians,
 
 ### `numpy`
+NumPy is used for array operations in Python.
+For the difference between lists and arrays see figure below.
+
+![](./figures/05.07.numpy1.png)
+
+Accessing elements in the lists and arrays.
+
+![](./figures/05.08.numpy2.png)
+
+Data types in NumPy.
+
+![](./figures/05.09.numpy3.png)
+
+Shape and dimension of an array.
+
+![](./figures/05.10.numpy4.png)
+
+Reshape an array.
+
+![](./figures/05.11.numpy5.png)
+
+The opposite is also possible.
+
+![](./figures/05.12.numpy6.png)
+
+Combining arrays.
+
+![](./figures/05.13.numpy7.png)
+
+Other methods can be use in NumPy.
+
+![](./figures/05.14.numpy8.png)
+
+### Reading and writing files
+Files can be read or written in Python with/without NumPy.
+* `"r"` is used for reading,
+* `"w"` is used for creating and writing (overwrite),
+* `"a"` is used for creating and appending,
 
 
 
