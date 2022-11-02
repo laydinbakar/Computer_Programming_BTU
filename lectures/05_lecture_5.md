@@ -57,18 +57,25 @@ We can also read list items. See the example below.
 Figure shows the model rotating at $\omega=1~\mathrm{rad/s}$ around $x_3$-axis. Calculate the linear velocity $\mathbf{u}$ of the red point. The position vector from the origin to the point is $\mathbf{r}=(1, 0, 0)$.
 
 `Solution:`
+
 $\mathbf{u}$ is calculated as follows:
+
 ```math
 \begin{align}
 \mathbf{u}=&\pmb\omega \times \mathbf{r}
-=& (\omega_2 r_3 - \omega_3 r_2)\mathbf{e}_1 +
--(\omega_1 r_3 - \omega_3 r_1)\mathbf{e}_2 
-+(\omega_1 r_2 - \omega_2 r_1)\mathbf{e}_3
-=& \right((\omega_2 r_3 - \omega_3 r_2),
--(\omega_1 r_3 - \omega_3 r_1)\mathbf{e}_2,
-(\omega_1 r_2 - \omega_2 r_1)\mathbf{e}_3\left)
+\\
+=& (\omega_2 r_3 - \omega_3 r_2) \mathbf{e}_1 
+ - (\omega_1 r_3 - \omega_3 r_1) \mathbf{e}_2 
+ + (\omega_1 r_2 - \omega_2 r_1) \mathbf{e}_3
+\\
+=& \right(
+ (\omega_2 r_3 - \omega_3 r_2), 
+-(\omega_1 r_3 - \omega_3 r_1), 
+ (\omega_1 r_2 - \omega_2 r_1)
+\right)
 \end{align}
 ```
+
 where $\omega$ and $r$ with subscripts "1", "2" and "3" are the vector components given by 
 $\pmb\omega = \left( \omega\_1, \omega\_2, \omega\_3 \right)$ and 
 $\mathbf{r} = \left( r\_1, r\_2, r\_3 \right)$.
@@ -77,6 +84,7 @@ $\mathbf{r} = \left( r\_1, r\_2, r\_3 \right)$.
 
 Note that this is not the best way of calculating cross product in Python. 
 See NumPy module in the following parts of this lecture.
+
 ---
 
 ### `math`
