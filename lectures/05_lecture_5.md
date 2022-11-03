@@ -1,6 +1,8 @@
 # Lecture 5 (04.11.2022)
 You can watch the video lectures for
-* [1-Python](https://youtu.be/Jqpt3janYkg).
+* [1-Python modules: os and argparse](https://youtu.be/LjO3hrfXnlA).
+* [2-Python modules: math and numpy](https://youtu.be/DJIcNJV7AJs).
+* [3-Upload files on GitLab](https://youtu.be/P3me0HTuLXE).
 
 Make a directory so called `Lecture5` and work on it in this lecture. You will push your codes into your GitLab at the end.
 
