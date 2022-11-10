@@ -139,11 +139,3 @@ Other methods can be use in NumPy.
 
 ![](./figures/05.14.numpy8.png)
 
-### Reading and writing files
-Files can be read or written in Python with/without NumPy.
-* `"r"` is used for reading,
-* `"w"` is used for creating and writing (overwrite),
-* `"a"` is used for creating and appending,
-
-
-
