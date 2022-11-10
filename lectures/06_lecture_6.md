@@ -1,8 +1,8 @@
 # Lecture 6 (11.11.2022)
 You can watch the video lectures for
-* [1-Conditions](https://youtu.be/LjO3hrfXnlA).
-* [2-Loops](https://youtu.be/LjO3hrfXnlA).
-* [3-Write and read files](https://youtu.be/LjO3hrfXnlA).
+* [1-Conditions](https://youtu.be/Zt33uJrWFws).
+* [2-Loops](https://youtu.be/gW9rUVL9wNo).
+* [3-Write and read files](https://youtu.be/VfFhBzva5J4).
 
 `Clone your files from GitLab`
 
