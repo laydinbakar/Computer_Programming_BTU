@@ -1,4 +1,8 @@
 # Lecture 7 (18.11.2022)
+You can watch the video lectures on YouTube using the links below.
+* [1-Shell scripting](https://youtu.be/MXXKw65xdi0)
+* [2-Sed](https://youtu.be/m3LWgdp7lrY)
+
 Again, remove the repositories downloaded onto our lab computers by another student last week first.
 ```bash
 rm -rf ComputerProgramming2022
