@@ -1,6 +1,7 @@
+THIS REPOSITORY IS JUST A SCRATCH. IT MAY HAVE SOME WRONG INFORMATION. WILL BE UPDATED LATER.
+
 # Lecture 8 (25.11.2022)
 Clone your GitLab repository onto the computer you use before starting these examples.
-
 
 ## Example 1
 1. Create a folder as `Lecture8` in `ComputerProgramming2022` and change the working directory into `Lecture8`.
@@ -76,3 +77,9 @@ Clone your GitLab repository onto the computer you use before starting these exa
     1. Write a `sed` command finding the word `Programing` and replacing it with `Programming` in the first 5 lines of the `cat.txt` file and overwriting it.
     1. Write a `sed` command finding the word `Programming` and replacing it with `Computer Programming` in entire file of `cat.txt` and overwriting it.
 
+## Example 10
+1. Write two Python scripts in `python_scripts` folder as follows:
+	1. In the first Python script (`write_binary.py`), create an array of zeros in the shape of $3\times 200$ write this array into a binary file.
+	1. In the second Python script (`convert_binary_to_text.py`) read the array from the file and write it in a text file.
+	1. Use argument parser for file names in both scripts.
+	1. Make both scripts executable.

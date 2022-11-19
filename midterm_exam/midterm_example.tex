@@ -1,0 +1,137 @@
+%   Author        : Levent Aydinbakar
+%   Date          : 20-58-04---19-11-2022
+%   Last Modified : 02-34-38---20-11-2022
+
+
+\documentclass[addpoints]{exam}
+
+\usepackage[a4paper, total={18cm, 25cm}]{geometry} % For setting the PDF file page sizes
+
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{lastpage}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{amsmath, mathtools}
+\usepackage{paralist}
+\usepackage{listings} % For writing code examples 
+\lstset{basicstyle=\ttfamily,
+  showstringspaces=false,
+  commentstyle=\color{gray},
+  keywordstyle=\color{blue},
+}
+\renewcommand{\lstlistingname}{Script}% Listing -> Algorithm
+
+
+\renewcommand{\thequestion}{\bfseries{Q\arabic{question}}}
+\renewcommand{\thepartno}{\bfseries{\Alph{partno}}}
+
+
+\rhead{}
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+\cfoot{}
+\begin{document}
+\begin{center}
+%\begin{figure}[h!]
+%\includegraphics[width=2cm]{btu_logo.jpg} 
+\includegraphics[%
+    width=3cm,
+%    align=t,
+%    smash=br,
+%    vshift=1cm,     % adjust the vertical position
+%    hshift=-1.5cm     % adjust the horizontal position
+]{figures/btu_logo}%
+%\caption{}
+%\end{figure}
+
+\begin{large}
+
+\textbf{Computer Programming (C/C++) MECH0291}
+
+\textbf{
+\begin{LARGE}
+\textcolor{red}{Example}
+Midterm Exam 
+\end{LARGE}}
+
+\vspace{0.2cm}
+\begin{LARGE}
+\textbf{Group 1/A}
+\end{LARGE}
+
+\vspace{0.2cm}
+November 25, 2022, 17:00--21:00
+
+\vspace{0.2cm}
+
+
+\vspace{0.2cm}
+\end{large}
+\end{center}
+%\begin{multicols}{2}
+\begin{minipage}[c]{0.45\linewidth}
+\begin{flushleft}
+\begin{tabular}{l l l }
+Student Name	&:   & \hspace{1cm} \\
+Student ID		&:   & \hspace{1cm} \\
+Department		&:   & \hspace{1cm} \\
+  				& 	 & \hspace{1cm} \\
+Instructor		&:   & Dr. Levent Aydinbakar\\
+Teaching Assistant		&:   & RA Ismail Hos\\
+\end{tabular}
+\end{flushleft}
+
+\end{minipage}
+%\columnbreak
+\begin{minipage}[c]{0.6\linewidth}
+\begin{flushleft}
+\gradetable[h]
+\end{flushleft}
+%\end{multicols}
+\end{minipage}
+
+\begin{flushleft}
+
+\fbox{\fbox{\parbox{17.5cm}{
+
+\textbf{Instructions}
+\begin{enumerate}
+    \item This booklet contains \pageref{LastPage} pages.
+    \item You have 75~minutes to complete the examination.
+	\item You may \textbf{only} use the Terminal Application in this exam. You \textbf{may not} use any web browser or any other programs.
+	\item Only students who has an appropriate GitLab Repository can join this exam. Your \$USER\_NAME should be in\ \texttt{yourStudentID\_name\_surname} format.
+	\item Start with the commands below to set the computer that you use GitLab on the exam computer.
+	\begin{itemize}
+		\item \texttt{git config --global user.name "\$USER\_NAME"}
+		\item \texttt{git config --global user.email "\$USER\_EMAIL"}
+	\end{itemize}
+	\item Remove the old \texttt{ComputerProgramming2022} folder if exists on your working directory.
+	\item Download your ComputerProgramming2022 repository from GitLab with the command below, create a folder as \texttt{MidtermExam} if you do not have already created, and put the files you make in this exam in this folder. 
+	\begin{itemize}
+		\item \texttt{git clone https://gitlab.com/\$USER\_NAME/ComputerProgramming2022.git}
+	\end{itemize}
+	\item At the end, you must upload your codes into the same repository using the commands below. Those files will be evaluated and marked as your midterm exam grade.
+	\begin{itemize}
+		\item \texttt{git add MidtermExam}
+		\item \texttt{git commit -m "Add MidterExam"}
+		\item \texttt{git push origin main}
+	\end{itemize}
+	\item Add your student ID, name and surname as a comment on the top of each scripts you write in this exam.
+    \item You may use one (1) double-sided A4 paper ($210\times297~{\mathrm{mm}^2}$) with notes that you have prepared in your handwriting. You may not use printed or photocopied paper sheets, lecture notes, books, or other students.
+    \item The maximum point you can obtain in this exam is 100. 
+\end{enumerate}}}}
+
+\end{flushleft}
+\begin{questions}
+\input{question1}
+\input{question2}
+\input{question3}
+\input{question4}
+\input{question5}
+\input{question6}
+\end{questions}
+\end{document}
+
+
