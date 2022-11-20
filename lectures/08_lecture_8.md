@@ -1,4 +1,12 @@
-THIS REPOSITORY IS JUST A SCRATCH. IT MAY HAVE SOME WRONG INFORMATION. WILL BE UPDATED LATER.
+# A midterm exam sample
+
+[Midterm Exam](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/midterm_exam): An example midterm exam
+
+THIS REPOSITORY IS JUST A SCRATCH. 
+
+IT MAY HAVE SOME WRONG INFORMATION. 
+
+CONSIDER THIS WHEN YOU WORK ON THIS REPOSITORY.
 
 # Lecture 8 (25.11.2022)
 Clone your GitLab repository onto the computer you use before starting these examples.
