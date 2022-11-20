@@ -8,7 +8,6 @@ This repository is for students taking Computer Programming (MECH0291) at BTU.
 1. [Lecture 6](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/06_lecture_6.md): Conditions, loops and files with Python
 1. [Lecture 7](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/07_lecture_7.md): Shell scripts
 1. [Lecture 8](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/08_lecture_8.md): Examples
-
 [Midterm Exam](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/midterm_exam): An example midterm exam
 9. [Lecture 9](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/09_lecture_9.md): Python functions and classes
 10. [Lecture 10](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/10_lecture_10.md): Gnuplot 
