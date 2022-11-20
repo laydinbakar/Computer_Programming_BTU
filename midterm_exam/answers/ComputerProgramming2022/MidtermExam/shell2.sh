@@ -1,5 +1,5 @@
 #!/bin/zsh
-# 1234567890 Levent Aydinbakar
+# 1/A 1234567890 Levent Aydinbakar
 
 f1=$1
 f2=$2
