@@ -20,5 +20,16 @@ Once you add `FixedMidtermExam` folder on your repository correctly, you will ge
 
 Please note that if your fixed results cannot gain exactly 120 points, you will not get the 10 points.
 
-## Python classes
-Will be worked on the next week.
+## Python functions
+Until now, you have learned how to use built-in Python functions. In this part, you will learn how to write your own functions. 
+
+You can use your own functions alongside with the code or you can save them to use later.
+
+See the furst example below.
+
+```python
+def additionOf(a,b)
+  return a+b
+```
+
+

@@ -124,7 +124,7 @@ for j in range(1,2):
       print("IF YOU GET AN ERROR HERE, REMOVE YOUR ./{0}{1}_{2} FILE (NOT FOLDER) AND RESTART THIS SCRIPT.".format(fname,str(j),i))
       print("************************")
       shutil.rmtree("./{0}{1}_{2}".format(fname,str(j),i))
-    os.system("set -e ; bash {0}{1}_{2}.sh 1> /dev/null 2>&1 || true".format(fname,str(j),i))
+    os.system("set -e ; ./{0}{1}_{2}.sh 1> /dev/null 2>&1 || true".format(fname,str(j),i))
     if os.path.exists("./{0}{1}_{2}".format(fname,str(j),i)):
       print("You have ./{0}{1}_{2} +5p".format(fname,str(j),i))
       p=p+5
@@ -155,7 +155,7 @@ for j in range(2,3):
       print("IF YOU GET AN ERROR HERE, REMOVE YOUR ./{0}{1}_{2} FILE (NOT FOLDER) AND RESTART THIS SCRIPT.".format(fname,str(j),i))
       print("************************")
       shutil.rmtree("./{0}{1}_{2}".format(fname,str(j),i))
-    os.system("set -e ; bash {0}{1}_{2}.sh F1 F2 F3 1> /dev/null 2>&1 || true".format(fname,str(j),i))
+    os.system("set -e ; ./{0}{1}_{2}.sh F1 F2 F3 1> /dev/null 2>&1 || true".format(fname,str(j),i))
     if os.path.exists("./{0}{1}_{2}".format(fname,str(j),i)):
       print("You have ./{0}{1}_{2} +5p".format(fname,str(j),i))
       p=p+5
@@ -201,11 +201,11 @@ for j in range(3,4):
         p=p+5
         AA1=numpy.ones((3,var1))
         if var0=="column":
-          for aa in range(3):
-            AA1[aa,:]=AA1[aa,:]*aa*math.pi
-        elif var0=="row":
           for aa in range(var1):
             AA1[:,aa]=AA1[:,aa]*aa*math.pi
+        elif var0=="row":
+          for aa in range(3):
+            AA1[aa,:]=AA1[aa,:]*aa*math.pi
         if numpy.sum(AA1[:,:]) == numpy.sum(numpy.loadtxt("./{0}{1}_{2}/text.txt".format(fname,str(j),i))[:]):
           p=p+7.5
           print("You text.txt is correct +7.5p")
