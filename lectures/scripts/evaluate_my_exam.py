@@ -206,12 +206,12 @@ for j in range(3,4):
         elif var0=="row":
           for aa in range(3):
             AA1[aa,:]=AA1[aa,:]*aa*math.pi
-        if numpy.sum(AA1[:,:]) == numpy.sum(numpy.loadtxt("./{0}{1}_{2}/text.txt".format(fname,str(j),i))[:]):
+        if numpy.sum(AA1[-1,:]) == numpy.sum(numpy.loadtxt("./{0}{1}_{2}/text.txt".format(fname,str(j),i)).reshape(3,var1)[-1,:]):
           p=p+7.5
           print("You text.txt is correct +7.5p")
         else:
           print("You could not multiply your array (text.txt) with a correct value.")
-        if numpy.sum(AA1[:,:]) == numpy.sum(numpy.fromfile("./{0}{1}_{2}/binary".format(fname,str(j),i),dtype="f8")[:]):
+        if numpy.sum(AA1[-1,:]) == numpy.sum(numpy.fromfile("./{0}{1}_{2}/binary".format(fname,str(j),i),dtype="f8").reshape(3,var1)[-1,:]):
           p=p+7.5
           print("You binary is correct +7.5p")
         else:
