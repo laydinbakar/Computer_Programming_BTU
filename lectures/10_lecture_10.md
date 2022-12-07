@@ -310,6 +310,27 @@ set key reverse below Left spacing 2
 We can plot the different lines using multiplot method.
 
 ```bash
+#/usr/bin/gnuplot
+#set terminal pdfcairo font 'Times,14' size 4.5in,3.0in
+set terminal pdfcairo font 'Times,14' size 4.5in,9.0in
+set output 'population.pdf'
+
+set xrange [1962:2022]
+set yrange [20:90]
+set xlabel 'Year'
+set ylabel 'Population in millions'
+set xtics autofreq 1962,10
+
+set grid xtics lt -1 lw 0.2 lc rgb 'gray'
+
+set grid xtics mxtics
+set grid ytics mytics
+set mytics 2
+set mxtics 5
+set grid lw 1 lt -1 lc rgb 'dark-gray', lw 0.05 lt -1 lc rgb 'light-gray'
+
+set border lw 1.5 
+
 #set key reverse below Left spacing 2
 set key bottom right
 
