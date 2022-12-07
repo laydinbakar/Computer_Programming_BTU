@@ -400,6 +400,8 @@ unset xtics
 unset xlabel
 
 do for [i=1:62]{
+x=i+1961
+set title 'Year: '.x 
 plot 'population.txt' using (1980):($2/1000000) every ::i::i t 'Turkiye' ps 0.3 lt 7 lc rgb 'navy blue' lw 3 w boxes ,\
 'population.txt' using (1992):($3/1000000) every ::i::i t 'Germany' ps 0.3 lt 4 lc rgb 'red' lw 3 w boxes ,\
 'population.txt' using (2004):($4/1000000) every ::i::i t 'UK' ps 0.3 lt 8 lc rgb 'green' lw 3 w boxes 
