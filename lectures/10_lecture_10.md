@@ -2,7 +2,7 @@
 ## Gnuplot
 Gnuplot is a free and open-source commandline driven plotting utility. You can plot high-quality graphs using raw data files or Excel-like program outputs. 
 
-Before starting this tutorial, make Lecture10 folder, go to that folder and download the text files from [here](https://github.com/laydinbakar/Computer_Programming_BTU/tree/main/lectures/scripts). Click on the text file name, click `Raw`, right click and click save as.
+Before starting this tutorial, make `Lecture10` folder, go to that folder and download the data from [here](https://raw.githubusercontent.com/laydinbakar/Computer_Programming_BTU/main/lectures/scripts/population.txt). Right click and click save as. Name it as `population.txt` in `~/Lecture10`.
 
 Type `gnuplot` on a terminal window to start Gnuplot. 
 
