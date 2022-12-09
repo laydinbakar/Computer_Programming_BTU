@@ -375,13 +375,13 @@ set mytics 2
 set mxtics 5
 set grid lw 1 lt -1 lc rgb 'dark-gray', lw 0.05 lt -1 lc rgb 'light-gray'
 
-set border lw 1.5 
+set border lw 1.5
 
 set key reverse below Left spacing 2
 
 do for [i=1:62]{
-plot 'population.txt' using 1:($2/1000000) every ::1::i t 'Turkiye' ps 0.3 lt 7 lc rgb 'navy blue' lw 3 w lp ,\ 
-'population.txt' using 1:($3/1000000) every ::1::i t 'Germany' ps 0.3 lt 4 lc rgb 'red' lw 3 w lp ,\ 
+plot 'population.txt' using 1:($2/1000000) every ::1::i t 'Turkiye' ps 0.3 lt 7 lc rgb 'navy blue' lw 3 w lp ,\
+'population.txt' using 1:($3/1000000) every ::1::i t 'Germany' ps 0.3 lt 4 lc rgb 'red' lw 3 w lp ,\
 'population.txt' using 1:($4/1000000) every ::1::i t 'UK' ps 0.3 lt 8 lc rgb 'green' lw 3 w lp
 }
 ```
