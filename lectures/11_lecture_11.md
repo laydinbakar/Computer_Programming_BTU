@@ -1,4 +1,9 @@
 # Lecture 11 (16.12.2022)
+You can watch the video lectures on YouTube using the links below.
+* [1-Introduction to LaTeX](https://youtu.be/mlq51ZY5cXk)
+* [2-Math in LaTeX](https://youtu.be/mGm0PpNVQRQ)
+* [3-References in LaTeX](https://youtu.be/MCmDVsKFwWE)
+
 ## Introduction to LaTeX
 LaTeX is a tool for typesetting profesisonal-looking documents. 
 
