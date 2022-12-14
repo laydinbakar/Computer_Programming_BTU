@@ -548,7 +548,7 @@ mkdir figures
 cp -r ../Lecture10/population.pdf figures/
 ```
 
-If you do not have that image, you can use [this](../scripts/template.gp) Gnuplot script and [this](../scripts/population.txt) text file to make it.
+If you do not have that image, you can use [this](../lectures/scripts/template.gp) Gnuplot script and [this](../lectures/scripts/population.txt) text file to make it.
 
 Then write the LaTeX code given below.
 
@@ -742,7 +742,7 @@ We can use the same document to list the contents and figures at the beginning a
 \maketitle
 
 \tableofcontents
-\lisfoffigures
+\listoffigures
 
 \section{The First Section}
 \label{sec:firstSection}
