@@ -887,3 +887,5 @@ Appendices
 
 ## Example document
 Click [here](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/files/heatTransfer.pdf) to download an example report. Write this report by yourself. You can find some PNG, PDF and bib files you need to use in this report [here](https://github.com/laydinbakar/Computer_Programming_BTU/tree/main/lectures/files).
+
+When you make this study, you need to search how to add tables, how to add list of tables, how to write commands like equations (lstlisting) and how to add appendices by yourself on the internet.
