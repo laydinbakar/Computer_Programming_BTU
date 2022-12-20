@@ -363,17 +363,6 @@ Schematic of the heat transfer probelm is shown in Figure~\ref{fig:problem}.
 \end{center}
 \end{figure}
 
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-There is a paragraph here.
-
-
 \begin{figure}[h]
 \begin{center}
 \begin{tikzpicture}
