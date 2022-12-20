@@ -1,7 +1,7 @@
 # Lecture 12 (23.12.2022)
 ## Tikz
 
-You can watch the video lectures on YouTube using the links below.
+You can watch the video lectures on YouTube using [this playlist link](https://www.youtube.com/playlist?list=PLxJ7zqe9IspKF7F07-6aZEaFpoMZzSZel) or the links below.
 
 * [1-Introduction to Tikz](https://youtu.be/04OXOEXTtO8)
 * [2-Shapes and colors](https://youtu.be/ovDJ3vkcwl4)
