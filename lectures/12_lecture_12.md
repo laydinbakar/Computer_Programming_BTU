@@ -2,8 +2,10 @@
 ## Tikz and Pgfplots
 
 You can watch the video lectures on YouTube using the links below.
-* [1-Tikz](https://youtu.be/mlq51ZY5cXk)
-* [2-Pgfplots](https://youtu.be/mlq51ZY5cXk)
+
+LINKS WILL BE UPDATED SOON.
+* [1-Tikz]()
+* [2-Pgfplots]()
 
 ## Tikz
 Tikz is a package in LaTeX to draw professional-looking drawings.
