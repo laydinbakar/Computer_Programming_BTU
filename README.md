@@ -11,7 +11,7 @@ This repository is for students taking Computer Programming (MECH0291) at BTU.
 1. [Lecture 9](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/09_lecture_9.md): Python functions and classes
 1. [Lecture 10](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/10_lecture_10.md): Gnuplot 
 1. [Lecture 11](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/11_lecture_11.md): LaTeX
-1. [Lecture 12](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/12_lecture_12.md): Tikz and Pgfplots
-1. [Lecture 13](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/13_lecture_13.md): Examples
+1. [Lecture 12](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/12_lecture_12.md): Tikz
+1. [Lecture 13](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/13_lecture_13.md): Pgfplots
 1. [Lecture 14](https://github.com/laydinbakar/Computer_Programming_BTU/blob/main/lectures/14_lecture_14.md): Examples
                                                                                                              
