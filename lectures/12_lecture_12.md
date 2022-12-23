@@ -425,3 +425,26 @@ Schematic of the heat transfer probelm is shown in Figure~\ref{fig:problem}.
 \end{document}
 ```
 
+#### Convert command possible error
+You need to install imagemagick to use `convert` command to convert PDF to GIF.
+```
+sudo apt-get update
+sudo apt-get install imagemagick
+```
+Then refresh your terminal.
+
+If you get an error similar to
+```
+attempt to perform an operation not allowed by the security policy `PDF'
+```
+you need to follow below.
+```bash
+sudo vi /etc/ImageMagick-6/policy.xml
+```
+paste the line below just above `</policymap>` line:
+```bash
+<policy domain="module" rights="read|write" pattern="{PS,PDF,XPS}" /
+```
+You `policy.xmf` file should look like:
+
+![](./figures/13.01.policymap.png)
