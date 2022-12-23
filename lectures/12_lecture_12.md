@@ -448,3 +448,14 @@ paste the line below just above `</policymap>` line:
 You `policy.xmf` file should look like:
 
 ![](./figures/13.01.policymap.png)
+
+Here if you have the lines below, you should **remove** those:
+```bash
+<!-- disable ghostscript format types -->
+<policy domain="coder" rights="none" pattern="PS" />
+<policy domain="coder" rights="none" pattern="PS2" />
+<policy domain="coder" rights="none" pattern="PS3" />
+<policy domain="coder" rights="none" pattern="PSS" />
+<policy domain="coder" rights="none" pattern="PDF" />
+<policy domain="coder" rights="none" pattern="XPS" />
+```
