@@ -25,6 +25,7 @@ Any scenerio you can imagine, such as,
 * you can calculate the possibility of getting champions league cup of a football club...
 
 See some YouTube channels that you can find some interesting subjects:
+* https://www.youtube.com/@TheEfficientEngineer
 * https://www.youtube.com/@3blue1brown
 * https://www.youtube.com/@mathletters5269
 * https://www.youtube.com/@MinutePhysics
