@@ -1,0 +1,63 @@
+\documentclass[tikz]{standalone}
+
+% Import tikz
+\usepackage{tikz}
+
+% Import text file reader
+\usepackage{csvsimple}
+
+\begin{document}
+
+\begin{tikzpicture}
+\coordinate (A) at (0,0); 
+\coordinate (B) at (4,0); 
+\coordinate (C) at (2,3.464);
+\draw[fill, blue!10!white] (A) -- (B) -- (C) -- (A);
+\draw[fill, blue!50!black] (A) circle (1.2pt) node[black,  left]{$1$};
+\draw[fill, blue!50!black] (B) circle (1.2pt) node[black, right]{$2$};
+\draw[fill, blue!50!black] (C) circle (1.2pt) node[black, above]{$3$};
+\csvreader[head to column names, separator=comma]{textFiles/sierpinskiPoints10.txt}{}{
+\draw[fill, blue!50!black] (\x,\y) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\coordinate (A) at (0,0); 
+\coordinate (B) at (4,0); 
+\coordinate (C) at (2,3.464);
+\draw[fill, blue!10!white] (A) -- (B) -- (C) -- (A);
+\draw[fill, blue!50!black] (A) circle (1.2pt) node[black,  left]{$1$};
+\draw[fill, blue!50!black] (B) circle (1.2pt) node[black, right]{$2$};
+\draw[fill, blue!50!black] (C) circle (1.2pt) node[black, above]{$3$};
+\csvreader[head to column names, separator=comma]{textFiles/sierpinskiPoints100.txt}{}{
+\draw[fill, blue!50!black] (\x,\y) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\coordinate (A) at (0,0); 
+\coordinate (B) at (4,0); 
+\coordinate (C) at (2,3.464);
+\draw[fill, blue!10!white] (A) -- (B) -- (C) -- (A);
+\draw[fill, blue!50!black] (A) circle (1.2pt) node[black,  left]{$1$};
+\draw[fill, blue!50!black] (B) circle (1.2pt) node[black, right]{$2$};
+\draw[fill, blue!50!black] (C) circle (1.2pt) node[black, above]{$3$};
+\csvreader[head to column names, separator=comma]{textFiles/sierpinskiPoints1000.txt}{}{
+\draw[fill, blue!50!black] (\x,\y) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\coordinate (A) at (0,0); 
+\coordinate (B) at (4,0); 
+\coordinate (C) at (2,3.464);
+\draw[fill, blue!10!white] (A) -- (B) -- (C) -- (A);
+\draw[fill, blue!50!black] (A) circle (1.2pt) node[black,  left]{$1$};
+\draw[fill, blue!50!black] (B) circle (1.2pt) node[black, right]{$2$};
+\draw[fill, blue!50!black] (C) circle (1.2pt) node[black, above]{$3$};
+\csvreader[head to column names, separator=comma]{textFiles/sierpinskiPoints5000.txt}{}{
+\draw[fill, blue!50!black] (\x,\y) circle (1pt);
+}
+\end{tikzpicture}
+
+\end{document}

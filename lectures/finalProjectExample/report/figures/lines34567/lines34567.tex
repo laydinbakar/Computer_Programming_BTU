@@ -1,0 +1,62 @@
+\documentclass[tikz]{standalone}
+
+% Import tikz
+\usepackage{tikz}
+
+% Import text file reader
+\usepackage{csvsimple}
+
+\begin{document}
+
+\begin{tikzpicture}
+\csvreader[head to column names, separator=comma,
+          late after head=\xdef\xold{\x}\xdef\yold{\y},%
+          after line=\xdef\xold{\x}\xdef\yold{\y}]%
+{textFiles/lines3.txt}{}{
+\draw[blue!50!black] (\xold,\yold) -- (\x,\y);
+%\draw[fill,blue!50!black] (\xold,\yold) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\csvreader[head to column names, separator=comma,
+          late after head=\xdef\xold{\x}\xdef\yold{\y},%
+          after line=\xdef\xold{\x}\xdef\yold{\y}]%
+{textFiles/lines4.txt}{}{
+\draw[blue!50!black] (\xold,\yold) -- (\x,\y);
+%\draw[fill,blue!50!black] (\xold,\yold) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\csvreader[head to column names, separator=comma,
+          late after head=\xdef\xold{\x}\xdef\yold{\y},%
+          after line=\xdef\xold{\x}\xdef\yold{\y}]%
+{textFiles/lines5.txt}{}{
+\draw[blue!50!black] (\xold,\yold) -- (\x,\y);
+%\draw[fill,blue!50!black] (\xold,\yold) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\csvreader[head to column names, separator=comma,
+          late after head=\xdef\xold{\x}\xdef\yold{\y},%
+          after line=\xdef\xold{\x}\xdef\yold{\y}]%
+{textFiles/lines6.txt}{}{
+\draw[blue!50!black] (\xold,\yold) -- (\x,\y);
+%\draw[fill,blue!50!black] (\xold,\yold) circle (1.2pt);
+}
+\end{tikzpicture}
+
+\begin{tikzpicture}
+\csvreader[head to column names, separator=comma,
+          late after head=\xdef\xold{\x}\xdef\yold{\y},%
+          after line=\xdef\xold{\x}\xdef\yold{\y}]%
+{textFiles/lines7.txt}{}{
+\draw[blue!50!black] (\xold,\yold) -- (\x,\y);
+%\draw[fill,blue!50!black] (\xold,\yold) circle (1.2pt);
+}
+\end{tikzpicture}
+
+
+\end{document}

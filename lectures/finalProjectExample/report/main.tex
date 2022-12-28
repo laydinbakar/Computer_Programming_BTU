@@ -1,0 +1,130 @@
+% Start with
+\documentclass[twocolumn]{article}
+
+% Import package for random typing
+% STUDENTS: DO NOT USE THIS
+\usepackage{lipsum}
+
+% Import multicolumn package
+\usepackage{multicol}
+
+% Import geometry package to set paper sizes
+\usepackage{geometry}
+\geometry{a4paper, left=30mm, right=30mm, top=30mm, bottom=30mm}
+
+% Import font package
+\usepackage{fontenc}
+
+% Import tikz
+%every picture/.append style={defcoords} % will apply this to all tikzpictures
+\usepackage{tikz}
+
+% Import bibliography packages
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{hyperref}
+\hypersetup{ 
+colorlinks=true, 
+linkcolor=blue, 
+filecolor=blue, 
+citecolor = black,       
+urlcolor=cyan, 
+} 
+
+% Insert images
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+% Import pgfplots
+\usepackage{pgfplots}
+
+% Import text file reader
+\usepackage{csvsimple}
+
+% Import listings for Python scripts
+\usepackage{listings}
+
+% Import fancy python view packages
+\usepackage{mdframed}
+
+% Begin the document
+\begin{document}
+
+% Add title page
+\begin{titlepage}
+
+% To center everything in thi page
+\centering
+
+\includegraphics[%
+    width=1.7in,
+]{figures/btu_logo}%
+
+\vspace{1cm}
+{\Huge \textbf{Final Project Report }}
+
+\vspace{1cm}
+{\Huge \textbf{Sierpinski Triangle and \\ Koch Snowflake Fractals by \\ Python and Pgfplots}}
+
+\vspace{1cm}
+\LARGE Bursa Technical University \\
+Department of Mechanical Engineering \\
+Computer Programming Course \\
+
+
+\Large
+% Put some space before the names
+\vspace{1cm}
+\textbf{Team 0}
+\begin{center}
+  \begin{tabular}{ l r }
+Name & Student ID \\ \hline
+Levent Aydinbakar & 1234567890 \\ 
+Levent Aydinbakar & 1234567890 \\ \end{tabular}
+\end{center}
+
+\vspace{1cm}
+\large \textbf{Instructor:} Dr. Levent Aydinbakar \\
+
+% Puts everything after this point
+% at the end (bottom) of this page
+\vfill
+
+\begin{abstract}
+\input{parts/abstract.tex}
+\end{abstract}
+
+\vspace{1cm}
+\large \today
+
+\end{titlepage}
+
+\onecolumn
+\tableofcontents
+\listoffigures
+\listoftables
+\twocolumn
+
+\input{parts/00_introduction.tex}
+\input{parts/01_sierpinski.tex}
+\input{parts/02_koch_snowlake.tex}
+\input{parts/03_others.tex}
+\input{parts/04_contributions.tex}
+\input{parts/05_conclusions.tex}
+
+
+
+\newpage
+\newpage
+\onecolumn
+\bibliographystyle{unsrt}
+\bibliography{ref.bib}
+
+\appendix
+\input{parts/appendix_sierpinski.tex}
+\input{parts/appendix_kspgf.tex}
+
+
+% The document finishes here
+\end{document}
+

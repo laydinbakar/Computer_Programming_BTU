@@ -1,0 +1,25 @@
+\documentclass[tikz,margin=2mm]{standalone}
+\usepackage{tikz}
+
+\usetikzlibrary{lindenmayersystems}
+
+\begin{document}%
+\def\hexagwidth{4cm}%
+\pgfdeclarelindenmayersystem{Sierpinski hexagon}{
+  \symbol{X}{\pgflsystemdrawforward}
+    \symbol{Y}{\pgflsystemmoveforward\pgflsystemmoveforward\pgflsystemmoveforward}
+    \rule{X -> X+X+X+X+X+X+Y}
+    \rule{Y -> YYY}
+}%
+\foreach \level in {4,...,4}{%
+\tikzset{
+    l-system={step=\hexagwidth/3^\level, order=\level, angle=60}
+}%
+\begin{tikzpicture}
+%  \fill[blue!50!black] (0,0) l-system 
+\shadedraw [top color=white, bottom color=blue!50!black, draw=blue!50!black]
+l-system
+  [l-system={Sierpinski hexagon, axiom=X}] ;
+\end{tikzpicture}
+}%
+\end{document}

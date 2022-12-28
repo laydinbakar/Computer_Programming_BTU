@@ -1,0 +1,16 @@
+\documentclass[tikz, margin=2mm]{standalone}
+
+\usetikzlibrary {lindenmayersystems}
+
+\begin{document}
+\begin{tikzpicture}
+\pgfdeclarelindenmayersystem{Koch curve}{
+  \rule{F -> F-F++F-F}
+  }
+
+\shadedraw [top color=white, bottom color=blue!50!black, draw=blue!50!black]
+[l-system={Koch curve, step=2pt, angle=60, axiom=F++F++F, order=4}]
+  lindenmayer system -- cycle;
+\end{tikzpicture}
+\end{document}
+

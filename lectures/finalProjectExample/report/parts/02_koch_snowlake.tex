@@ -1,0 +1,64 @@
+\clearpage
+\newpage
+\mbox{~}
+\section{Koch Snowflake}
+\label{sec:KochSnowflake}
+
+In Section~\ref{sec:SierpinskiTriangle}, we show how to make the Sierpinski Triangle.
+Here we will show the Koch Snowflake \cite{KS, OP, LA}.
+
+The Koch Snowflake can also be obtained from a equilateral triangle.
+
+\begin{figure}[htb]
+\centering
+\begin{tikzpicture}
+\coordinate (A) at (0,0); 
+\coordinate (B) at (4,0); 
+\coordinate (C) at (2,3.464);
+\draw[blue!50!white] (A) -- (B) -- (C) -- (A);
+\end{tikzpicture}
+\caption{An equilateral triangle corner points}
+\label{fig:triangleKSP}
+\end{figure}
+
+Then the lines are divided into 3 equal parts, the middle part is rotated $60^\circ$ around both of the points.
+
+\begin{figure}[htb]
+\centering
+\begin{tikzpicture}
+\coordinate (A) at (0,0); 
+\coordinate (B) at (4,0); 
+\coordinate (C) at (2,3.464);
+\draw[blue!50!white] (A) -- (B) -- (C) -- (A);
+\node at (2,1.15){\includegraphics{KSP1.pdf}};
+\end{tikzpicture}
+\caption{A first order Koch Snowflake}
+\label{fig:KSP1}
+\end{figure}
+
+When we continue dividing each line and rotating the midline, we can obtain Figure~\ref{fig:KSP2}.
+
+\textcolor{gray}{
+\lipsum[2]
+}
+
+\begin{figure}[htb]
+\centering
+\begin{tikzpicture}
+\node[anchor=north west] at (0,4.8)  {\includegraphics[page=1]{KSP2.pdf}};
+\node[anchor=north west] at (0,0)    {\includegraphics[page=2]{KSP2.pdf}};
+\node[anchor=north west] at (0,-4.8) {\includegraphics[page=3]{KSP2.pdf}};
+\node[anchor=north west] at (0,-9.6) {\includegraphics[page=4]{KSP2.pdf}};
+\end{tikzpicture}
+\caption{A second, third, fourth, fifth, and sixth order Koch Snowflakes from 
+from \textit{top} to \textit{bottom}}
+\label{fig:KSP2}
+\end{figure}
+
+%The length of the equilateral triangle given in Figure~\ref{fig:triangleKSP} is $l$. 
+%The perimeter of the triangle is defined as $3l$.
+%When the rule shown in Figure~\ref{fig:KSP1} is applied, the new figure has $\frac{4}{3}l$.
+%Then the perimeter of the new shape is $3\frac{4}{3}l$.
+%The perimeter of the second order shape is calculated as $3\frac{4}{3}^2l$.
+%When we apply the rule $n$ times, then the perimeter is defined as $3\frac{4}{3}^nl$.
+
