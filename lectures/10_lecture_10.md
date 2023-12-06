@@ -1,4 +1,7 @@
 # Lecture 10 (09.12.2022)
+
+Please find the video lecture playlist [here](https://youtube.com/playlist?list=PLxJ7zqe9IspKUbX8Kj1Um7DlOa_9gpXTe&si=0ESajRNVwobfdEgi).
+
 ## Gnuplot
 Gnuplot is a free and open-source commandline driven plotting utility. You can plot high-quality graphs using raw data files or Excel-like program outputs. 
 
