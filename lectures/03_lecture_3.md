@@ -1,12 +1,7 @@
 # Lecture 3 (21.10.2022)
 You can watch the video lectures for
-## Vim
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WTTno8TSvIw?si=ro60s5dkPOvLzLeW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-## Screen
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CNrip-XFhrw?si=qMVDROo9bsltRugU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+* [Vim](https://youtu.be/WTTno8TSvIw?si=tcDyJQ6IwU_GnMEs)
+* [Screen](https://youtu.be/CNrip-XFhrw?si=g8sPgYpIbXRQRe2x)
 
 ## Vim
 Vim is a text editor can be used on the terminal window.
@@ -243,6 +238,7 @@ Use `screen -r name` to reattach to the Screen session.
 
 You will notice that working jobs continue working even we detach from a screen.
 
+<!--
 # GitLab
 We can share our codes or any data using GitLab, work on the projects as a team or make a program public.
 
@@ -292,3 +288,5 @@ https://gitlab.com/STUDENTNUMBER_NAME_SURNAME/ComputerProgramming2022
 ```
 
 If you make a mistake in your GitLab username which has to be in the form of `STUDENTNUMBER_NAME_SURNAME` or project name which has to be `ComputerProgramming2022`, your files will not be downloaded onto our computers and we may not evaluate you. So be careful at this step.
+-->
+-->
