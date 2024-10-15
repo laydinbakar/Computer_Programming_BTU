@@ -1,7 +1,9 @@
 # Lecture 3 (21.10.2022)
 You can watch the video lectures for
-* [Vim](https://youtu.be/WTTno8TSvIw) and
-* [Screen and GitLab](https://youtu.be/QkrVu39wjus).
+## Vim
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WTTno8TSvIw?si=ro60s5dkPOvLzLeW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+## Screen
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CNrip-XFhrw?si=qMVDROo9bsltRugU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Vim
 Vim is a text editor can be used on the terminal window.
